@@ -1,5 +1,26 @@
-body { font-family: Arial, sans-serif; }
-header { text-align: center; }
-header img { width: 150px; border-radius: 50%; }
-section { margin: 20px; padding: 20px; }
-footer { text-align: center; padding: 20px; }
+body {
+    font-family: Arial, sans-serif;
+    text-align: center; /* Centers text and inline elements */
+}
+
+header {
+    /* text-align: center; is not needed anymore since body is already centering everything */
+}
+
+header img {
+    width: 150px;
+    border-radius: 50%;
+    display: inline-block; /* Ensures the img is affected by text-align center */
+}
+
+section {
+    margin: 0 auto; /* Auto margins on left and right center the block */
+    padding: 20px;
+    width: 90%; /* You might want to set a width to see the centering effect */
+}
+
+footer {
+    /* text-align: center; is not needed anymore, same reason as header */
+    padding: 20px;
+}
+
