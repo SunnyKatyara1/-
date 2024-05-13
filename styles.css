@@ -13,6 +13,18 @@ header img {
     display: inline-block; /* Ensures the img is affected by text-align center */
 }
 
+section {
+    margin: 0 auto; /* Auto margins on left and right center the block */
+    padding: 20px;
+    width: 90%; /* You might want to set a width to see the centering effect */
+    text-align: justify; /* Justify the text */
+}
+
+footer {
+    /* text-align: center; is not needed anymore, same reason as header */
+    padding: 20px;
+}
+
 .middle-image {
     width: 200px;
     border-radius: 50%;
@@ -27,15 +39,14 @@ header img {
     margin-top: 10px; /* Adds some space between images */
 }
 
-section {
-    margin: 0 auto; /* Auto margins on left and right center the block */
-    padding: 20px;
-    width: 90%; /* You might want to set a width to see the centering effect */
+.recognition {
+    display: flex;
+    justify-content: center; /* Centers the images horizontally */
+    flex-wrap: wrap; /* Allows the images to wrap to the next line if they don't fit in one row */
+    gap: 10px; /* Adds some space between the images */
 }
 
-footer {
-    /* text-align: center; is not needed anymore, same reason as header */
-    padding: 20px;
+.recognition img {
+    width: 150px; /* Adjust the size of the images as needed */
+    border-radius: 10%; /* Optional: adds a small border radius to the images */
 }
-
-
