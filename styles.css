@@ -9,7 +9,7 @@ header {
 
 header img {
     width: 150px;
-    border-radius: 50%;
+    border-radius: 80%;
     display: inline-block; /* Ensures the img is affected by text-align center */
 }
 
