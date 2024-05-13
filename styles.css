@@ -13,6 +13,20 @@ header img {
     display: inline-block; /* Ensures the img is affected by text-align center */
 }
 
+.middle-image {
+    width: 200px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 20px; /* Adds some space between the top image and the middle image */
+}
+
+.small-image {
+    width: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 10px; /* Adds some space between images */
+}
+
 section {
     margin: 0 auto; /* Auto margins on left and right center the block */
     padding: 20px;
@@ -23,4 +37,5 @@ footer {
     /* text-align: center; is not needed anymore, same reason as header */
     padding: 20px;
 }
+
 
