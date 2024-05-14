@@ -43,10 +43,10 @@ footer {
     display: flex;
     justify-content: center; /* Centers the images horizontally */
     flex-wrap: wrap; /* Allows the images to wrap to the next line if they don't fit in one row */
-    gap: 10px; /* Adds some space between the images */
+    gap: 20px; /* Adds some space between the images */
 }
 
 .recognition img {
-    width: 150px; /* Adjust the size of the images as needed */
+    width: 2000px; /* Adjust the size of the images as needed */
     border-radius: 10%; /* Optional: adds a small border radius to the images */
 }
