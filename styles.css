@@ -8,8 +8,8 @@ header {
 }
 
 header img {
-    width: 300px;
-    border-radius: 120%;
+    width: 800px;
+    border-radius: 200%;
     display: inline-block; /* Ensures the img is affected by text-align center */
 }
 
